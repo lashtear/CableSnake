@@ -1,0 +1,75 @@
+ByteMemory:
+    column: "Logic"
+    prefab:
+        blocks:
+            -
+                color: 443366
+                position: (-0.5, 0, 0)
+                scale: (4, 1, 1)
+        inputs:
+            -
+                position: (-2.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.4
+            -
+                position: (-1.75, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.4
+            -
+                position: (-1.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.4
+            -
+                position: (-0.75, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.4
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.4
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.4
+            -
+                position: (0.75, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.4
+            -
+                position: (1.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.4
+            -
+                # clock line
+                position: (1.4, 0.5, 0)
+                rotation: (0, 45, -90)
+        outputs:
+            -
+                position: (-2.25, 0.75, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1.75, 0.25, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1.25, 0.75, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-0.75, 0.25, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-0.25, 0.75, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0.25, 0.25, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0.75, 0.75, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1.25, 0.25, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: CableSnake.ByteMemory
+    placingRules:
+        offsetDimensions: (0, 0)
+        gridPlacingDimensions: (5, 2)
+        allowFineRotation: false
