@@ -1,0 +1,5 @@
+VectorLatch:
+    column: "Logic"
+    prefab: dynamic
+    logicCode: CableSnake.VectorLatch
+    placingRules: dynamic

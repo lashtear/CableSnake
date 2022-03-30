@@ -1,2 +1,9 @@
 /LogicWorld
 .vscode
+.vs
+/obj
+/bin
+*~
+.DS_Store
+/workspace.code-workspace
+*.csproj
