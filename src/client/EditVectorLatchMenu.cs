@@ -3,6 +3,7 @@ using LogicSettings;
 using LogicUI.MenuParts;
 using LogicWorld.BuildingManagement;
 using LogicWorld.UI;
+using LogicWorld.UnityBullshit;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,11 +16,15 @@ namespace CableSnake.Client
         [SerializeField]
         private InputSlider InputCountSlider;
 
-        protected override void OnStartEditing() => this.InputCountSlider.SetValueWithoutNotify((float) ((IEnumerable<EditingComponentInfo>) this.ComponentsBeingEdited).First<EditingComponentInfo>().Component.Data.InputCount);
+        protected override void OnStartEditing() => 
+            this.InputCountSlider.SetValueWithoutNotify(
+                (float) ((IEnumerable<EditingComponentInfo>) this.ComponentsBeingEdited)
+                    .First<EditingComponentInfo>().Component.Data.OutputCount);
 
         public override void Initialize()
         {
             base.Initialize();
+            this.InputCountSlider = new InputSlider();
             this.InputCountSlider.SliderInterval = 1f;
             this.InputCountSlider.Min = 1f;
             this.InputCountSlider.Max = (float) EditVectorLatchMenu.MaxBits;

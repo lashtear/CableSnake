@@ -1,0 +1,68 @@
+ByteLatch:
+    column: "Logic"
+    prefab:
+        blocks:
+            -
+                color: 443366
+                position: (0.5, 0, 0)
+                scale: (8, 1, 1)
+        inputs:
+            -
+                # clock line
+                position: (4.4, 0.5, 0)
+                rotation: (0, 45, -90)
+                length: 1.2
+            -
+                position: (-3.0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: (-2.0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: (-1.0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: ( 0.0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: ( 1.0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: ( 2.0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: ( 3.0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: ( 4.0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+        outputs:
+            -
+                position: (-3.0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-2.0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1.0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: ( 0.0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: ( 1.0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: ( 2.0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: ( 3.0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: ( 4.0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: CableSnake.ByteLatch
+    placingRules:
+        offsetDimensions: (2, 0)
+        gridPlacingDimensions: (5, 3)
+        allowFineRotation: false
